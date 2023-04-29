@@ -3,7 +3,6 @@
 font-family: 'Barlow', sans-serif;
 font-family: 'Fraunces', serif;
 */
-
 :root{
     /*Primarios*/
     --Soft-red: hsl(7, 99%, 70%);
@@ -21,24 +20,49 @@ font-family: 'Fraunces', serif;
 }
 
 body{
-    margin: 0;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 header{
-    background-image: url('../img/mobile/image-header.jpg');
-    background-repeat: no-repeat;
+    background-image: url("../img/mobile/image-header.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
     height: 500px;
 }
 
+h2{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-family: 'Fraunces', serif;
+    font-size: 32px;
+}
+
+p{
+    font-family: 'Barlow', sans-serif;
+    color: var(--Grayish-blue);
+    margin: 0 10% 40px 10%;
+    
+}
+
+.learn_more{
+    font-family: 'Fraunces', serif;
+    color: red;
+
+}
+
+.information_text{
+    margin-bottom: 50px;
+}
 .information_img img{
     width: 100%;
 }
 
-.information_text{
-    text-align: center;
+.images_container img{
+    width: 100%;
 }
-
 
 
 
